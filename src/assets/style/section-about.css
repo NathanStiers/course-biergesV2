@@ -1,0 +1,22 @@
+#section-about .middle{
+    width: 50vw;
+    font-size: 1.3rem;
+}
+
+#section-about article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+#section-about article div{
+    padding: 1.5rem;
+    width: 30%;
+}
+
+#section-about article div p{
+    padding-top: 1.5rem;
+}

@@ -1,0 +1,10 @@
+#section-trajet article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#section-trajet article div{
+    width: 45%;
+    text-align: left;
+}

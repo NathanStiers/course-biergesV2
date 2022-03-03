@@ -1,4 +1,5 @@
 import React from "react";
+import "../../assets/style/section-sponsors.css"
 
 // reactstrap components
 import { Container, Row, Col, Media } from "reactstrap";
@@ -7,25 +8,26 @@ import { Container, Row, Col, Media } from "reactstrap";
 
 function SponsorsCompose() {
     return (
-        <>
-            <center><h1>Merci à tous nos sponsors</h1></center><br/><br/>
-            <Container>
-                <Row>
-                    <Col>
-                        <Media src={require("../../assets/img/logo wavre .png")}/>
-                    </Col>
-                    <Col>
+        <section id="section-sponsors">
+            <h2>Nos sponsors</h2>
+            <article>
+            <figure>
+                <img src={require("../../assets/img/logo wavre .png")} />
+            </figure>
+            <figure>
+                <img src={require("../../assets/img/logo wavre .png")} />
+            </figure>
+            <figure>
+                <img src={require("../../assets/img/logo wavre .png")} />
+            </figure>
+            <figure>
+                <img src={require("../../assets/img/logo wavre .png")} />
+            </figure>
+            </article>
+            <h3>Merci à tous nos sponsors</h3>
+        </section>
 
-                    </Col>
-                    <Col>
 
-                    </Col>
-                    <Col>
-
-                    </Col>
-                </Row><br/><br/>
-            </Container>
-        </>
     );
 }
 

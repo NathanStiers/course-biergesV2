@@ -46,92 +46,24 @@ function SelfNavbar({
     };
   });
   return (
-    <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
-      <Container>
-        <div className="navbar-translate">
-          <NavbarBrand
-            data-placement="bottom"
-            href="/"
-            title="Coded by Nathan Stiers"
-          >
-            <img
+    <div id="header">
+      <figure>
+        <img
               src={require("../../assets/img/run.png")}
               width="80"
               eight="auto"
-              className="mr-3"
             ></img>
-            Une course pour tous
-          </NavbarBrand>
-          <button
-            aria-expanded={navbarCollapse}
-            className={classnames("navbar-toggler navbar-toggler", {
-              toggled: navbarCollapse
-            })}
-            onClick={toggleNavbarCollapse}
-          >
-            <span className="navbar-toggler-bar bar1" />
-            <span className="navbar-toggler-bar bar2" />
-            <span className="navbar-toggler-bar bar3" />
-          </button>
-        </div>
-        
-
-        <Collapse
-          className="justify-content-end"
-          navbar
-          isOpen={navbarCollapse}
-        >
-          <Nav navbar>
-          <NavItem  >
-            <NavLink 
-              style={{color:"#c0171c"}}
-              data-placement="bottom"
-              title="Explication d'inscription"
-              onClick={s}
-            >
-              <b>S'inscrire</b>
-              </NavLink>
-          </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="#about"
-                title="&Agrave; propos de la course"
-              >
-                &Agrave; propos
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="#trajet"
-                title="La carte du trajet"
-              >
-                Trajet
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="#sponsors"
-                title="Nos sponsors sans qui rien ne serait possible"
-              >
-                Nos sponsors
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="mailto:6kmbierges@gmail.com"
-                title="6kmbierges@gmail.com"
-              >
-                Contact
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Container>
-    </Navbar>
+            </figure>
+      <nav>
+        <ul>
+          <li><a>S'inscrire</a></li>
+          <li><a>A propos de nous</a></li>
+          <li><a>Notre trajet</a></li>
+          <li><a>Nos sponsors</a></li>
+          <li><a>Contactez-nous</a></li>
+        </ul>
+      </nav>
+    </div>
   );
 }
 

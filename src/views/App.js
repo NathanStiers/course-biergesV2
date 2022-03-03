@@ -7,6 +7,7 @@ import About from "./About/AboutCompose"
 import Trajet from "./Trajet/TrajetCompose"
 import Sponsors from "./Sponsors/SponsorsCompose"
 import ModalPaths from "./Modal"
+import "../assets/style/app.css"
 
 function App() {
   const [show, setShow] = useState(false);
@@ -22,15 +23,15 @@ function App() {
     };
   });
   return (
-    <div >
+    <div id="html">
       <SelfNavbar c={handleClose} s={handleShow} show={show} />
       <SelfHeader />
       <div>
         <About c={handleClose} s={handleShow} show={show} />
         <ModalPaths show={show} handleClose={handleClose} />
-        <hr />
+
         <Trajet />
-        <hr />
+
         <Sponsors />
       </div>
 
