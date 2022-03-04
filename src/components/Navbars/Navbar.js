@@ -1,50 +1,9 @@
-import React, {useState} from "react";
-// nodejs library that concatenates strings
-import classnames from "classnames";
-// reactstrap components
-import {
-  Collapse,
-  NavbarBrand,
-  Navbar,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-} from "reactstrap";
+import React from "react";
 
-function SelfNavbar({
-  c, s, show
-}) {
+function SelfNavbar() {
 
-  const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
-  const [navbarCollapse, setNavbarCollapse] = React.useState(false);
+  const clipboardCopy = () => navigator.clipboard.writeText('infos@6kmbierges.be')
 
-  const toggleNavbarCollapse = () => {
-    setNavbarCollapse(!navbarCollapse);
-    document.documentElement.classList.toggle("nav-open");
-  };
-
-  React.useEffect(() => {
-    const updateNavbarColor = () => {
-      if (
-        document.documentElement.scrollTop > 299 ||
-        document.body.scrollTop > 299
-      ) {
-        setNavbarColor("");
-      } else if (
-        document.documentElement.scrollTop < 300 ||
-        document.body.scrollTop < 300
-      ) {
-        setNavbarColor("navbar-transparent");
-      }
-    };
-
-    window.addEventListener("scroll", updateNavbarColor);
-
-    return function cleanup() {
-      window.removeEventListener("scroll", updateNavbarColor);
-    };
-  });
   return (
     <div id="header">
       <figure>
@@ -60,7 +19,7 @@ function SelfNavbar({
           <li><a href="#section-about">A propos de nous</a></li>
           <li><a href="#section-trajet">Notre trajet</a></li>
           <li><a href="#section-sponsors">Nos sponsors</a></li>
-          <li><a href="#section-contact">Contactez-nous</a></li>
+          <li><a href="#section-contact" onClick={clipboardCopy}>Contactez-nous</a></li>
         </ul>
       </nav>
     </div>

@@ -160,3 +160,6 @@ footer nav ul li{
     padding: 0.7rem;
 }
 
+.map-container {
+    height: 100px;
+}
