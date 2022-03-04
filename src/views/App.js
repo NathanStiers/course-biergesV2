@@ -29,9 +29,7 @@ function App() {
       <div>
         <About c={handleClose} s={handleShow} show={show} />
         <ModalPaths show={show} handleClose={handleClose} />
-
         <Trajet />
-
         <Sponsors />
       </div>
 
