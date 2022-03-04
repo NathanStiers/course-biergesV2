@@ -25,7 +25,7 @@ function SponsorsCompose() {
             <figure id="sponsors-start">
                 <img src={sponsors} />
             </figure>
-            <h3>Merci à tous nos sponsors</h3>
+            <br/><h3 className="center">Merci à tous nos sponsors</h3>
         </section>
 
 

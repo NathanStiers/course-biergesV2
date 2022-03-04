@@ -1,10 +1,10 @@
-#section-trajet article {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+.map-container {
+    height: 30rem;
+    width: 40vw !important;
 }
 
-#section-trajet article div{
-    width: 45%;
-    text-align: left;
+#section-trajet {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }

@@ -8,11 +8,11 @@ function SelfHeader() {
     <section id="section-home">
       <article>
         <div>
-          <p class="right">Organisé par les horizons<br /> de la 40e de Bierges</p>
+          <p className="right">Organisé par les horizons<br /> de la 40e de Bierges</p>
           <h1>Les 6km <br />de Bierges</h1>
-          <h3>Prévu le 14 mai 2022</h3>
+          <h3 className="right">Prévu le 14 mai 2022</h3>
         </div>
-        <a class="btn">Je veux m'inscrire</a>
+        <a className="btn">Je veux m'inscrire</a>
       </article>
       <article>
         <img

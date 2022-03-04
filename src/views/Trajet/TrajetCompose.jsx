@@ -12,9 +12,9 @@ function TrajetCompose() {
 
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng, setLng] = useState(-122.483696);
-  const [lat, setLat] = useState(37.833818);
-  const [zoom, setZoom] = useState(5);
+  const [lng, setLng] = useState(4.579);
+  const [lat, setLat] = useState(50.7157);
+  const [zoom, setZoom] = useState(15);
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
@@ -24,11 +24,11 @@ function TrajetCompose() {
       center: [lng, lat],
       zoom: zoom
     });
+    map.current.addControl(new mapboxgl.NavigationControl());
   });
 
   useEffect(() => {
     if (!map.current) return; // wait for map to initialize
-    map.current.addControl(new mapboxgl.NavigationControl());
     map.current.on('move', () => {
       setLng(map.current.getCenter().lng.toFixed(4));
       setLat(map.current.getCenter().lat.toFixed(4));
@@ -38,10 +38,11 @@ function TrajetCompose() {
 
   return (
     <section id="section-trajet">
+      
       <article>
         <div ref={mapContainer} className="map-container" />
       </article>
-      <article>
+      <article> 
         <div>
           <h2>Le trajet</h2><br /><br /><br />
           <p>Le tracé du trajet arrivera prochainement!</p>
