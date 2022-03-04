@@ -49,18 +49,18 @@ function SelfNavbar({
     <div id="header">
       <figure>
         <img
-              src={require("../../assets/img/run.png")}
+              src={require("../../assets/img/pis.png")}
               width="80"
-              eight="auto"
+              height="auto"
             ></img>
             </figure>
       <nav>
         <ul>
-          <li><a>S'inscrire</a></li>
-          <li><a>A propos de nous</a></li>
-          <li><a>Notre trajet</a></li>
-          <li><a>Nos sponsors</a></li>
-          <li><a>Contactez-nous</a></li>
+          <li><a href="#">S'inscrire</a></li>
+          <li><a href="#section-about">A propos de nous</a></li>
+          <li><a href="#section-trajet">Notre trajet</a></li>
+          <li><a href="#section-sponsors">Nos sponsors</a></li>
+          <li><a href="#section-contact">Contactez-nous</a></li>
         </ul>
       </nav>
     </div>

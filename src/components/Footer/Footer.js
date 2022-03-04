@@ -11,7 +11,7 @@ function SelfHeader() {
             <section>
                 <figure>
                     <img
-                        src={require("../../assets/img/run.png")}
+                        src={require("../../assets/img/pis.png")}
                         width="80"
                         eight="auto"
                     ></img>

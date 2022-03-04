@@ -9,6 +9,7 @@ import Sponsors from "./Sponsors/SponsorsCompose"
 import Footer from "../components/Footer/Footer.js"
 import ModalPaths from "./Modal"
 import "../assets/style/app.css"
+import "../assets/style/mobile-450px.css"
 
 function App() {
   const [show, setShow] = useState(false);
@@ -27,7 +28,7 @@ function App() {
     <div id="html">
       <SelfNavbar c={handleClose} s={handleShow} show={show} />
       <SelfHeader />
-      <div>
+      <div class="scroll-container">
         <About c={handleClose} s={handleShow} show={show} />
         <ModalPaths show={show} handleClose={handleClose} />
         <Trajet />

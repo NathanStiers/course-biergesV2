@@ -1,10 +1,10 @@
 import React from "react";
 import "../../assets/style/section-about.css"
-import one from "../../assets/img/about-illustration-1.svg"
-import two from "../../assets/img/about-illustration-2.svg"
-import three from "../../assets/img/about-illustration-3.svg"
-import four from "../../assets/img/about-illustration-4.svg"
-import five from "../../assets/img/about-illustration-5.svg"
+import horizon40e from "../../assets/img/about-illustration-horizon40e.svg"
+import intergenerationnelle from "../../assets/img/about-illustration-intergenerationnelle.svg"
+import surprise from "../../assets/img/about-illustration-surprise.svg"
+import calendrier from "../../assets/img/about-illustration-calendrier.svg"
+import humeur from "../../assets/img/about-illustration-humeur.svg"
 import six from "../../assets/img/about-illustration-6.svg"
 
 function AboutCompose({
@@ -16,27 +16,27 @@ function AboutCompose({
             <p className="middle">Nous avons l’immense plaisir de vous annoncer le lancement de la course des 6 km de Bierges. Aidez-nous à financer un voyage humanitaire de 15 jours en juillet.</p>
             <article>
                 <div>
-                    <img src={one}></img>
+                    <img src={horizon40e}></img>
                     <p>Pour la première fois depuis leur création, <em>les horizons de la 40e</em> unité de Bierges vous invitent à un évènement d’une envergure sans pareil.</p>
                 </div>
             
                 <div>
-                    <img src={two}></img>
+                    <img src={intergenerationnelle}></img>
                     <p>Ouverte aux filles, aux garçons, aux jeunes et aux moins jeunes, cette course se veut <em>intergénérationnelle</em> et accessible à tous !</p>
                 </div>
             
                 <div>
-                    <img src={three}></img>
+                    <img src={surprise}></img>
                     <p>Venez <em>remporter la coupe</em> ou simplement passer du bon temps en bonne compagnie.</p>
                 </div>
            
                 <div>
-                    <img src={four}></img>
+                    <img src={calendrier}></img>
                     <p>Rendez-vous le <em>samedi 14 mai entre 10 h et midi</em>. Le départ se fera à la salle Jules Colette et se terminera au même endroit.</p>
                 </div>
            
                 <div>
-                    <img src={five}></img>
+                    <img src={humeur}></img>
                     <p>On sait que vous avez déjà hâte d’y être alors nous vous attendons en forme et avec <em>votre bonne humeur</em> pour mettre le feu. </p>
                 </div>
            
