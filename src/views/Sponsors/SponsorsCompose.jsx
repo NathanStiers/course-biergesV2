@@ -2,11 +2,6 @@ import React from "react";
 import "../../assets/style/section-sponsors.css"
 import sponsors from "../../assets/img/sponsors-illustration.svg"
 
-// reactstrap components
-import { Container, Row, Col, Media } from "reactstrap";
-
-// core components
-
 function SponsorsCompose() {
     return (
         <section id="section-sponsors">

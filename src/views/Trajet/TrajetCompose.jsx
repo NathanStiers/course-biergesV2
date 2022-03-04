@@ -1,16 +1,11 @@
 import React from "react";
 
-// reactstrap components
-import { Container } from "reactstrap";
 import Map, { Marker } from 'react-map-gl';
 import "../../assets/style/section-trajet.css"
 
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoibmF0aGFuYWNjZW50dXJlIiwiYSI6ImNrN2RoZmxvaDA5dGczbG55NDM5N3dhN28ifQ.mHEPYdUr7DFv69toEjZxOQ'; // Set your mapbox token here
-
-
-// core components
 
 function TrajetCompose() {
   return (
@@ -29,7 +24,7 @@ function TrajetCompose() {
           />
         </div>
         <div>
-          <h2>Notre trajet</h2><br /><br /><br />
+          <h2>Le trajet</h2><br /><br /><br />
           <p>Le tracé du trajet arrivera prochainement!</p>
         </div>
       </article>
