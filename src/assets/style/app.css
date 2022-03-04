@@ -112,4 +112,36 @@ em{
     font-weight: 600;
 }
 
+footer{
+    margin-top: 5rem;
+    padding: 2rem 10rem;
+    background-color: #2A2F3B;
+    color: #fff9e7;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+footer section:nth-child(1){
+    width: 15vw;
+}
+footer section:nth-child(2){
+    width: 55vw;
+}
+
+footer section:nth-child(3){
+    width: 30vw;
+}
+
+
+footer nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+footer nav ul li{
+    padding: 0.7rem;
+}
 

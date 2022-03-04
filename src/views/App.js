@@ -6,6 +6,7 @@ import SelfHeader from "../components/Headers/Header.js";
 import About from "./About/AboutCompose"
 import Trajet from "./Trajet/TrajetCompose"
 import Sponsors from "./Sponsors/SponsorsCompose"
+import Footer from "../components/Footer/Footer.js"
 import ModalPaths from "./Modal"
 import "../assets/style/app.css"
 
@@ -33,6 +34,7 @@ function App() {
         <Trajet />
 
         <Sponsors />
+        <Footer/>
       </div>
 
       
