@@ -27,7 +27,7 @@ function App() {
   return (
     <div id="html">
       <SelfNavbar o={handleShow} />
-      <SelfHeader />
+      <SelfHeader o={handleShow} />
       <div class="scroll-container">
         <About />
         <ModalPaths show={show} c={handleClose} />

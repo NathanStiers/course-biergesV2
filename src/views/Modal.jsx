@@ -23,7 +23,7 @@ function ModalPaths({
                         Le <b>formatage</b> étant très important, veillez à bien le respecter s'il vous plait.<br></br>
                         <b>Date limite</b> de réception du virement : le 1er mai 2020
                     </center>
-                    En cas de problème ou de question supplémentaire, n'hésitez pas à nous envoyer un mail : infos@6kmbierges.be
+                    En cas de problème ou de questions supplémentaires, n'hésitez pas à nous envoyer un mail : infos@6kmbierges.be
                 </ModalBody>
                 <ModalFooter>
                     <Button variant="secondary" onClick={c} className="m-1">
