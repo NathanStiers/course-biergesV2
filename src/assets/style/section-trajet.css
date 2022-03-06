@@ -8,3 +8,21 @@
     flex-flow: row wrap;
     justify-content: space-around;
 }
+
+#section-trajet article{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+
+#section-trajet article:nth-child(2) div{
+    padding: 2rem;
+}
+
+
+#section-trajet article:nth-child(2) a{
+    margin-left: 15%;
+    width: 37%;
+}
