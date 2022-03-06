@@ -5,7 +5,9 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibmF0aGFuYWNjZW50dXJlIiwiYSI6ImNrN2RoZmxvaDA5dGczbG55NDM5N3dhN28ifQ.mHEPYdUr7DFv69toEjZxOQ';
 
-function TrajetCompose() {
+function TrajetCompose({
+  o
+}) {
 
   const mapContainer = useRef(null);
   const map = useRef(null);
@@ -212,7 +214,7 @@ function TrajetCompose() {
           <p>Le tracé du trajet arrivera prochainement!</p>
           
         </div>
-        <a className='btn'>Je veux m'inscrire!</a>  <br></br>
+        <a className='btn' onClick={o}>Je veux m'inscrire!</a>  <br></br>
          
       </article>
       
