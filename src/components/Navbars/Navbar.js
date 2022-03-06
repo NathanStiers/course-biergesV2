@@ -1,6 +1,8 @@
 import React from "react";
 
-function SelfNavbar() {
+function SelfNavbar({
+  o
+}) {
 
   const clipboardCopy = () => navigator.clipboard.writeText('infos@6kmbierges.be')
   const setMessage = () => {
@@ -11,8 +13,11 @@ function SelfNavbar() {
   }
 
   function contactClick() {
-    clipboardCopy();
-    setMessage();
+    clipboardCopy().then(() => {
+      setMessage();
+    }).catch(() => {
+      alert("infos@6kmbierges.be")
+    })
   }
 
   return (
@@ -26,11 +31,11 @@ function SelfNavbar() {
       </figure>
       <nav>
         <ul>
-          <li><a href="#">S'inscrire</a></li>
+          <li><a onClick={o}>S'inscrire</a></li>
           <li><a href="#section-about">A propos de nous</a></li>
           <li><a href="#section-trajet">Notre trajet</a></li>
           <li><a href="#section-sponsors">Nos sponsors</a></li>
-          <li><a id="contactLink" href="#section-contact" onClick={contactClick}>Contactez-nous</a></li>
+          <li><a id="contactLink" onClick={contactClick}>Contactez-nous</a></li>
         </ul>
       </nav>
     </div>

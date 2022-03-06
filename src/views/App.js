@@ -26,14 +26,14 @@ function App() {
   });
   return (
     <div id="html">
-      <SelfNavbar c={handleClose} s={handleShow} show={show} />
+      <SelfNavbar o={handleShow} />
       <SelfHeader />
       <div class="scroll-container">
-        <About c={handleClose} s={handleShow} show={show} />
-        <ModalPaths show={show} handleClose={handleClose} />
-        <Trajet />
+        <About />
+        <ModalPaths show={show} c={handleClose} />
+        <Trajet o={handleShow} />
         <Sponsors />
-        <Footer/>
+        <Footer />
       </div>
 
       

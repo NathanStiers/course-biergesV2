@@ -2,7 +2,6 @@
 
 import React from "react";
 import "../../assets/style/section-home.css"
-import homepage from "../../assets/img/homepage-illustration.svg"
 
 const clipboardCopy = () => navigator.clipboard.writeText('infos@6kmbierges.be')
 

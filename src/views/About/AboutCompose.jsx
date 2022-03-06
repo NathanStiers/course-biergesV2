@@ -6,7 +6,6 @@ import intergenerationnelle from "../../assets/img/about-illustration-intergener
 import surprise from "../../assets/img/about-illustration-surprise.svg"
 import calendrier from "../../assets/img/about-illustration-calendrier.svg"
 import humeur from "../../assets/img/about-illustration-humeur.svg"
-import six from "../../assets/img/about-illustration-6.svg"
 
 function AboutCompose() {
     return (
