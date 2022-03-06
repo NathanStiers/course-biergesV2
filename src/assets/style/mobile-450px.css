@@ -18,7 +18,7 @@
         margin-bottom: 4rem;
     }
 
-    #section-home, #section-about article, #section-sponsors article, footer nav ul, footer{
+    #section-home, #section-about article, #section-sponsors article, footer nav ul, footer, #section-trajet{
         flex-flow: column wrap;
     }
 
@@ -45,7 +45,7 @@
       }
 
       #section-home article img {
-        width: 100vw;
+        width: 90vw;
         margin-left: 0rem;
     }
 
@@ -58,6 +58,28 @@
         width: 100%;
     }
 
+    #section-trajet article {
+      height: 20rem;
+      width: 95%;
+    }
+
+    .map-container {
+      width: 90vw !important;
+  }
+  .mapboxgl-canvas{
+    width: 100vw !important;
+    height: auto !important;
+  }
+
+  #section-trajet article a{
+    width: 70% !important;
+  }
+
+  #section-sponsors article figure {
+    display: flex;
+    align-items: center;
+  }
+
     footer {
         margin-top: 5rem;
         padding: 2rem;
@@ -66,6 +88,10 @@
     footer section:nth-child(2){
         text-align: center;
     }
+
+    footer section {
+      width: 100% !important;
+  }
 
 
 
