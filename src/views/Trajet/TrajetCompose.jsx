@@ -2,7 +2,6 @@ import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import "../../assets/style/section-trajet.css"
 import 'mapbox-gl/dist/mapbox-gl.css';
-import localisation from "../../assets/img/trajet-illustration-map.svg"
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibmF0aGFuYWNjZW50dXJlIiwiYSI6ImNrN2RoZmxvaDA5dGczbG55NDM5N3dhN28ifQ.mHEPYdUr7DFv69toEjZxOQ';
 

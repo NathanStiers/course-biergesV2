@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
+import "../assets/style/app.css"
 
 function ModalPaths({
     show, c
@@ -9,7 +10,7 @@ function ModalPaths({
         <>
             <Modal isOpen={show} onHide={c} >
                 <ModalHeader >
-                    Procédure d'inscription
+                    <h3>Procédure d'inscription</h3>
                 </ModalHeader>
                 <ModalBody >
                     <b>1)</b> Un seul virement par personne afin de respecter le formatage du commentaire (voir point 3).<br /><br />
