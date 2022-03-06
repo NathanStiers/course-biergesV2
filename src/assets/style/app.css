@@ -14,7 +14,9 @@
     font-weight: 400;
     font-style: normal;
     color: #2A2F3B;
+    overflow-x: hidden;
 }
+
 .scroll-container{
     scroll-behavior: smooth;
 }
