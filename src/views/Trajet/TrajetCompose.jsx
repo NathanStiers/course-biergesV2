@@ -212,7 +212,7 @@ function TrajetCompose() {
           <p>Le tracé du trajet arrivera prochainement!</p>
           
         </div>
-        <a className='btn'>Je veux m'inscrire!</a>  
+        <a className='btn'>Je veux m'inscrire!</a>  <br></br>
          
       </article>
       
