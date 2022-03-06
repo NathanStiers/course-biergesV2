@@ -95,7 +95,18 @@
 
     footer section {
       width: 100% !important;
-  }
+  
+} 
+footer section:nth-child(1){
+  width: 100% !important;
+}
+
+footer section figure {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 
 
