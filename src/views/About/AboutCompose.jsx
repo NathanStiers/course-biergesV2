@@ -11,7 +11,7 @@ function AboutCompose() {
     return (
         <section id="section-about">
             <h2>A propos de nous</h2><br/><br/><br/>
-            <p className="middle">Nous avons l’immense plaisir de vous annoncer le lancement de la course des 6 km de Bierges. Aidez-nous à financer un voyage humanitaire de 15 jours en juillet.</p>
+            <p className="middle">Nous avons l’immense plaisir de vous annoncer le lancement de la course des 6 km de Bierges. Aidez-nous à financer un projet de volontariat de 15 jours en juillet.</p>
             <article>
                 <div>
                     <img src={horizon40e}></img>

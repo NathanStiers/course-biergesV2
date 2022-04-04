@@ -84,6 +84,14 @@
     flex-direction: column-reverse;
 }
 
+#section-inscription article {
+    width: 300px;
+    height: 90vh;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+}
+
     footer {
         margin-top: 5rem;
         padding: 2rem;
