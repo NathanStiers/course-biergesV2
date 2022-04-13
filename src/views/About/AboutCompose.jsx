@@ -30,7 +30,7 @@ function AboutCompose() {
            
                 <div>
                     <img src={calendrier}></img>
-                    <p>Rendez-vous le <em>samedi 14 mai entre 10 h et midi</em>. Le départ se fera à la salle Jules Colette et se terminera au même endroit.</p>
+                    <p>Rendez-vous le <em>samedi 14 mai entre 9h00 et midi</em>. Le départ se fera à la salle Jules Colette à 9h30 et se terminera au même endroit.</p>
                 </div>
            
                 <div>
