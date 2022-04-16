@@ -50,7 +50,7 @@
     }
 
     #section-about .middle, footer section:nth-child(3),footer section:nth-child(2) {
-        width: 100vw;
+        width: 95vw;
     }
 
     #section-about article div,#section-sponsors article figure {

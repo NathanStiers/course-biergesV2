@@ -16,10 +16,7 @@ function SponsorsCompose() {
                 <img src={LogoUnite} />
             </figure>
             <figure>
-                <img src={require("../../assets/img/logo wavre .png")} />
-            </figure>
-            <figure>
-                <img src={require("../../assets/img/logo wavre .png")} />
+                <img src={require("../../assets/img/logo_gcb.png")} />
             </figure>
             </article>
             <figure id="sponsors-start">
