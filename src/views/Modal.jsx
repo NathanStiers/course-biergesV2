@@ -18,7 +18,6 @@ function ModalPaths({
             <em>Exemple : </em> Doe/John/1985/john gmail.com<br /><br /></p>
             <p>
                 Le <em>formatage</em> étant très important, veillez à bien le respecter s'il vous plait.<br></br>
-                <em>Date limite</em> de réception du virement : le 08 mai 2022
             </p>
             <p>En cas de problème ou de questions supplémentaires, n'hésitez pas à nous envoyer un mail : infos@6kmbierges.be.</p><br /><br />
 

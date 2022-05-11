@@ -18,6 +18,24 @@ function SponsorsCompose() {
             <figure>
                 <img src={require("../../assets/img/logo_gcb.png")} />
             </figure>
+            <figure>
+                <img src={require("../../assets/img/carette.png")} />
+            </figure>
+            <figure>
+                <img src={require("../../assets/img/yr.png")} />
+            </figure>
+            <figure>
+                <img src={require("../../assets/img/ooak.png")} />
+            </figure>
+            <figure>
+                <img src={require("../../assets/img/pierre.jpg")} />
+            </figure>
+            <figure>
+                <img src={require("../../assets/img/prprint.jpg")} />
+            </figure>
+            <figure>
+                <img src={require("../../assets/img/jaune2.jpg")} />
+            </figure>
             </article>
             <figure id="sponsors-start">
                 <img src={sponsors} />
